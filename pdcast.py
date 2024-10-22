@@ -147,3 +147,4 @@ if st.session_state.podcast_script:
             file_name=f"{podcast_topic}_podcast.mp3",
             mime="audio/mp3"
         )
+st.info("build by darryl - enter topic, wait 30 secoands for audio script in podcast style")
